@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chit-Chat</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Oswald&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
   <body>
@@ -15,28 +16,18 @@
       <i class="fas fa-bars" id="btn"></i>
       <i class="fas fa-times" id="cancel"></i>
     </label>
-
     <div class="sidebar">
       <header>Active Users</header>
       <ul>
         <li>
           <a href="#"><i class="fas fa-qrcode"></i> Main Room </a>
         </li>
-
-        <% for(let i=0; i < data.length; i++){ %>
-            <li>
-                <a href="#"><i class="fas fa-user"></i> <%= data[i] %> </a>
-            </li>
-        <% } %>
-
-        
       </ul>
     </div>
-
-    <div class="container">
+    <!-- <div class="container"> -->
       <div id="send-container">
         <div class="messageBox left">
-          <p>Hello testing 1</p>
+          <p>Hello dear 1</p>
         </div>
         <div class="messageBox right">
           <p>
@@ -46,13 +37,22 @@
           </p>
         </div>
         <div class="messageBox left">
-          <p>Hello testing 3</p>
+          <p>Hello dear 3</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus praesentium a ipsa ab assumenda dicta, ad at obcaecati nobis quod reiciendis illum amet minima esse accusamus architecto harum illo culpa tempora corporis doloremque.</p>
+        </div>
+        <div class="messageBox right">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti,
+            magnam dolorem laudantium cum rerum ut reprehenderit adipisci
+            voluptas accusantium corrupti?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto cupiditate praesentium dolor, tempore dolorem vel? Fugit voluptates nisi distinctio modi laborum natus excepturi, quas commodi quis quo in corporis debitis vitae autem eligendi molestiae! Mollitia earum qui esse soluta expedita numquam accusamus cupiditate aperiam!
+          </p>
         </div>
         <div class="messageBox left">
-          <p>Hello testing 4</p>
+          <p>Hello dear 4</p>
         </div>
         <div class="messageBox left">
-          <p>Hello testing 1</p>
+          <p>Hello dear 1</p>
         </div>
         <div class="messageBox right">
           <p>
@@ -62,13 +62,23 @@
           </p>
         </div>
         <div class="messageBox left">
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt ex vitae pariatur aspernatur aut, eligendi nihil sit iusto hic qui autem alias maxime reprehenderit perspiciatis saepe doloremque ipsa neque corrupti! Non impedit minima odit.</p>
+          <p>Hello dear 3</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus praesentium a ipsa ab assumenda dicta, ad at obcaecati nobis quod reiciendis illum amet minima esse accusamus architecto harum illo culpa tempora corporis doloremque.</p>
+        </div>
+        <div class="messageBox right">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti,
+            magnam dolorem laudantium cum rerum ut reprehenderit adipisci
+            voluptas accusantium corrupti?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto cupiditate praesentium dolor, tempore dolorem vel? Fugit voluptates nisi distinctio modi laborum natus excepturi, quas commodi quis quo in corporis debitis vitae autem eligendi molestiae! Mollitia earum qui esse soluta expedita numquam accusamus cupiditate aperiam!
+          </p>
         </div>
         <div class="messageBox left">
-          <p>Hello testing 5</p>
+          <p>Hello dear 4</p>
         </div>
+        
       </div>
-    </div>
+    <!-- </div> -->
     <div class="send">
       <form action="" method="post">
         <input
